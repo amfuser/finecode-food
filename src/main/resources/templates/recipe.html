@@ -1,0 +1,160 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div data-anchor-id="P0-0" class="css-i2pd41 e7k5zd3" tabindex="-1">
+    <tr th:each="item : ${details}">
+        <td th:text="${item.key}">Key</td>
+        <td th:id="${'claim-' + item.key}" th:text="${item.value}">Value</td>
+    </tr>
+    <section class="css-okhoau eno1xhi8">
+        <div class="css-1nrgze0 e7k5zd2">
+            <h2 class="css-pqi9e4 eno1xhi7">Ingredients</h2>
+        </div>
+        <div class="ingredients-body css-0 eno1xhi5">
+            <div class="css-1xs6tit eno1xhi4">
+                <ul class="ingredient-lists css-xm7ys2 eno1xhi3">
+                    <li class="css-1rmzm7g eno1xhi2"><strong>4</strong>
+                        <p>large russet potatoes</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2"><strong>1/4</strong> <strong>c.</strong>
+                        <p>butter</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2"><strong>1/4</strong> <strong>c.</strong>
+                        <p>sour cream</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2"><strong>1/4</strong> <strong>c.</strong>
+                        <p>freshly chopped chives</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2"><strong>2</strong>
+                        <p>green onions, thinly sliced, white and green parts divided</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2"><strong>3/4</strong> <strong>c.</strong>
+                        <p>shredded Cheddar</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2"><strong>6</strong>
+                        <p>slices crispy bacon, crumbled</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2">
+                        <p>Kosher salt</p>
+                    </li>
+                    <li class="css-1rmzm7g eno1xhi2">
+                        <p>Freshly ground black pepper</p>
+                    </li>
+                </ul>
+                <div class="css-79elbk e11kntxf5"><button class="css-e5ysup e11kntxf4">See All Nutritional
+                        Information</button>
+                    <ul class="css-dajfsu e11kntxf3"><button type="button" aria-label="Close" alt="Close"
+                            class="css-15ma1n7 e11kntxf1"><span class=" css-4bs81v es31yw60"><svg alt="Close" role="img"
+                                    title="Cross Mark" aria-label="Close Icon" data-dynamic-svg=""
+                                    class="css-la4vhu e11kntxf0">
+                                    <use
+                                        data-href="/_assets/design-tokens/fre/static/icons/close.787e39b.svg?embed#icon">
+                                    </use>
+                                </svg></span></button>
+                        <li class="css-shalox evuuf5d3">Nutrition Information</li>
+                        <li class="css-1jo8vh3 evuuf5d2">Per Serving (Serves 4)</li>
+                        <li class="css-1l5opto evuuf5d6"><span class="css-1fkp1a5 evuuf5d5"><span
+                                    class="css-16k11al evuuf5d4">Calories</span>695 </span><span
+                                class="css-1fkp1a5 evuuf5d5"><span class="css-16k11al evuuf5d4">Fat</span>39
+                                g</span><span class="css-1fkp1a5 evuuf5d5"><span class="css-16k11al evuuf5d4">Saturated
+                                    fat</span>19 g</span><span class="css-1fkp1a5 evuuf5d5"><span
+                                    class="css-16k11al evuuf5d4">Trans fat</span>1 g</span><span
+                                class="css-1fkp1a5 evuuf5d5"><span class="css-16k11al evuuf5d4">Cholesterol</span>88
+                                mg</span><span class="css-1fkp1a5 evuuf5d5"><span
+                                    class="css-16k11al evuuf5d4">Sodium</span>1101 mg</span><span
+                                class="css-1fkp1a5 evuuf5d5"><span class="css-16k11al evuuf5d4">Carbohydrates</span>64
+                                g</span><span class="css-1fkp1a5 evuuf5d5"><span
+                                    class="css-16k11al evuuf5d4">Fiber</span>5 g</span><span
+                                class="css-1fkp1a5 evuuf5d5"><span class="css-16k11al evuuf5d4">Sugar</span>3
+                                g</span><span class="css-1fkp1a5 evuuf5d5"><span
+                                    class="css-16k11al evuuf5d4">Protein</span>19 g</span><span
+                                class="css-1fkp1a5 evuuf5d5"><span class="css-16k11al evuuf5d4">Vitamin D</span>1
+                                mcg</span><span class="css-1fkp1a5 evuuf5d5"><span
+                                    class="css-16k11al evuuf5d4">Calcium</span>227 mg</span><span
+                                class="css-1fkp1a5 evuuf5d5"><span class="css-16k11al evuuf5d4">Iron</span>4
+                                mg</span><span class="css-1fkp1a5 evuuf5d5"><span
+                                    class="css-16k11al evuuf5d4">Potassium</span>1712 mg</span></li>
+                        <li class="css-18zimz7 evuuf5d1"><span>Note: The information shown is Edamam’s estimate based on
+                                available ingredients and preparation. It should not be considered a substitute for a
+                                professional nutritionist’s advice.</span><span class="css-914k22 evuuf5d0">
+                                <div suppresshydrationwarning="" class="css-19vvq30 e1tikjwn0">Powered by</div><a
+                                    href="https://www.edamam.com/" class="css-0 e1c1bym14"><img
+                                        src="/_assets/design-tokens/fre/static/images/3rd-party/edamam-logo.3daca11.jpg"
+                                        loading="lazy" alt="edamam logo" width="90" height="20"></a>
+                            </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chicory-order-ingredients">
+                <div class="chicory-button-container chicory-noprint">
+                    <button id="chicory-default-btn">Shop Recipe</button>
+                    <a href="https://chicory.co/?utm_source=Chicory&amp;utm_medium=campaign+&amp;utm_campaign=chicory-powered-by-button&amp;utm_id=1&amp;utm_term=Chicory+powered+by+button+&amp;utm_content=Chicory+powered+by+button+"
+                        target="_blank" style="text-decoration:none !important;">
+                        <span onmouseover="this.style.cssText += ';color: #aeaeae !important;'"
+                            onmouseout="this.style.cssText += ';color: #888 !important;'" style="
+                color: #424242 !important;
+                font-family: 'Open Sans', sans-serif !important;
+                font-size: 11px !important;
+                font-weight:400 !important;
+                line-height: 15px !important;
+                box-shadow: none !important;
+                text-shadow: none !important;
+
+            ">Powered by Chicory
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div id="chicory_premium_pairings_unit" style="padding-top: 25px; margin-bottom: 1.875rem;"
+                class="chicory-noprint">
+                <div id="11833"
+                    style="height: 189.33333333333331px !important; width: 284px !important; max-height: 200px !important; max-width: 300px !important; border: none !important; margin: 0 !important; display: table; text-align: left !important; text-indent: 0 !important;"
+                    class="chicory-ingredient-pairing"><a href="javascript:;" target="_blank"><img
+                            src="https://media.bidr.io/chicory/2/259/11655_20230808_Veroni_Ignite2xVeroniWSKrogerAug2023_CityMarket_300x200_V1.jpg"
+                            alt="tap here" width="300" height="200"
+                            style="height: auto !important; width:284px !important;"></a><iframe
+                        src="https://match.prod.bidr.io/cookie-msync?ai=ChII0sypjAsQ2i0Y7Nyw-PHagAMSCQoHY2hpY29yeRoDY2hpYACSAQNjaGk=&amp;gdpr=0&amp;gdpr_consent=&amp;gdpr_pd=0&amp;"
+                        width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+                        style="visibility:hidden;width:1;height:1;display:inline;position:absolute;"></iframe></div>
+                <div style="display: none;">
+                    <div id="chicory-pixel-wrapper" style="position: relative;"><img src="https://media.bidr.io/1X1.png"
+                            style="position: absolute;" width="0" height="0"><img
+                            src="https://di.rlcdn.com/711295.gif?pdata=campaign_id%3D67878" width="0" height="0"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="css-l74ltq evb48wp6">
+        <div class="css-1nrgze0 e7k5zd2">
+            <h2 class="css-pqi9e4 evb48wp5">Directions</h2><button data-tooltip-id="recipe-save"
+                class="contentSaveButton css-rjet5h e12nq69g1"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 48 62" class="css-ijhlv7 e10k4xbi2">
+                    <path fill="#000" fill-rule="evenodd"
+                        d="M24 46.52 48 61V0H0v61.44l24-14.92ZM5.67 50.9 24 39.5l18.33 11.4V5.7H5.67v45.2Z"
+                        clip-rule="evenodd"></path>
+                </svg>Save to My Recipes</button>
+        </div>
+        <ul class="directions css-j01fd6 evb48wp4">
+            <li class="css-lqtfq evb48wp3">
+                <ol class="css-19p7hma et3p2gv0">
+                    <li><span aria-hidden="true" class="css-0 eagam8p0"></span><span
+                            class="css-0 evb48wp1">Step&nbsp;</span><span class="css-0 evb48wp0">1</span><span
+                            aria-hidden="true" class="css-13o7eu2 eagam8p1"></span>Preheat oven to 400°. Prick potatoes
+                        all over with a fork or sharp knife and wrap tightly in foil. Bake until soft, about 1 hour.
+                    </li>
+                    <li><span aria-hidden="true" class="css-0 eagam8p0"></span><span
+                            class="css-0 evb48wp1">Step&nbsp;</span><span class="css-0 evb48wp0">2</span><span
+                            aria-hidden="true" class="css-13o7eu2 eagam8p1"></span>Unwrap potatoes and cut lengthwise
+                        slits in the top of each. Carefully scoop out flesh from center of each potato into a medium
+                        bowl, then add butter, sour cream, chives, green onion whites, half the cheddar, and half the
+                        bacon. Season with salt and pepper.</li>
+                    <li><span aria-hidden="true" class="css-0 eagam8p0"></span><span
+                            class="css-0 evb48wp1">Step&nbsp;</span><span class="css-0 evb48wp0">3</span><span
+                            aria-hidden="true" class="css-13o7eu2 eagam8p1"></span>Spoon filling back into each potato,
+                        mounding it on top. Sprinkle with remaining cheese and return to oven until melted, about 5
+                        minutes. Top with scallion greens and remaining bacon.</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+</div>
+</html>
