@@ -6,7 +6,7 @@ import co.finecode.food.recipe.ingredient.Ingredient;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class RecipeBuilder {
     public static void build(String args[]) {
         // Build appetizer
         List<Ingredient> breadStickIngredients = new ArrayList<>();
